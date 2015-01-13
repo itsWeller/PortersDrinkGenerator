@@ -1,7 +1,9 @@
 # Porter's own Drink Generator
 
 ## Usage
+```
 python mixr.py
+```
 
 ## Example
 ```
