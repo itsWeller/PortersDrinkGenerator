@@ -3,7 +3,7 @@ import random
 adjs  = open('adjs.txt').read().splitlines()
 nouns = open('nouns.txt').read().splitlines()
 
-base_spirit = ['Whiskey','Rum','Vodka','Gin','Tequila','Brandy','Wine','Scotch']
+base_spirit = ['Whiskey','Rum','Vodka','Gin','Tequila','Brandy','Scotch']
 mixers      = ['Kahlua','Tonic','Coke','Triple Sec','Grenadine',"Bailey's","OJ",'Grapefruit Juice','Cranberry Juice']
 garnish     = ['Lime','Lemon','Orange','Grapefruit','Pineapple','Mango']
 syrup       = ['Simple Syrup','Honey Syrup','Agave Syrup']
@@ -28,4 +28,4 @@ print '# ' + str(num_dashes) + ' dashes ' + syr
 
 print ''
 
-print "Grab your " + base + ", and add a bit of " + mix + ".\nGarnish with a healthy slice of " + garn + " and add " + str(num_dashes)+ " dashes of " + random.choice(syrup) + ".\n\nEnjoy!"
+print "Grab your " + base + ", and add a bit of " + mix + ".\nGarnish with a healthy slice of " + garn + " and add " + str(num_dashes)+ " dashes of " + syr + ".\n\nEnjoy!"
