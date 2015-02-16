@@ -1,4 +1,5 @@
 # Porter's own Drink Generator
+For when you're too intoxicated to make bad decisions on your own.
 
 ## Usage
 ```
